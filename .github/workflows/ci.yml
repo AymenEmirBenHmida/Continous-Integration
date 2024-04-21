@@ -29,5 +29,5 @@ jobs:
         push: true
         tags: yourdockerhubusername/tractor-application:latest
       env:
-        USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        USERNAME: ${{ aebh102 }}
+        PASSWORD: ${{ dckr_pat_Jysi4vdfRcuBFU6f4o8CBj4VjTc }}
