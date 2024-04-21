@@ -25,7 +25,7 @@ public class TractorService {
 
     public void deleteTractor(Long tractorId) {
         log.info("findDepartmentById method service");
-         tractorRepository.deleteByTractorId(tractorId);
+        tractorRepository.deleteById(tractorId);
 
     }
 }
